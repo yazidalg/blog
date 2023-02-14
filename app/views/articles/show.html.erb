@@ -7,3 +7,9 @@
     turbo_method: :delete,
     turbo_confirm: "Yakin dek?"
 }%>
+
+<h3>Comment</h3>
+<%= render @article.comments %>
+
+<h3>Add a comment</h3>
+<%= render 'comments/form' %>
